@@ -21,16 +21,16 @@ class ProductController extends Controller
     {
         // get all products
         //
-        $products = DB::table('products')
-                    ->join('thumbnails', 'products.id', '=', 'thumbnails.product_id')
-                    ->select('products.*', 'thumbnails.thumbnail')
-                    ->get();
+        // $products = DB::table('products')
+        //             ->join('thumbnails', 'products.id', '=', 'thumbnails.product_id')
+        //             ->select('products.*', 'thumbnails.thumbnail')
+        //             ->get();
 
 
+        $products = Product::all();
         return $products;
 
 
-        // $products = Product::all();
         // return $products->images;
 
 

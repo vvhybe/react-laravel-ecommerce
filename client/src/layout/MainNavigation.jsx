@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { XIcon } from "@heroicons/react/solid";
+// import { XIcon } from "@heroicons/react/solid";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useSelector, useDispatch } from "react-redux";
 import { motion } from "framer-motion";
 
@@ -179,7 +180,7 @@ const MainNavigation = () => {
           {!showNav ? (
             <img src={HambergurMenu} alt="" />
           ) : (
-            <XIcon className="w-5" />
+            <XMarkIcon className="w-5" />
           )}
         </div>
       </div>

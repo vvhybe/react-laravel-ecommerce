@@ -20,6 +20,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::middleware('auth:sanctum')->get('/csrf-cookie', function (Request $request) {
+    return response()->json(['message' => 'CSRF cookie has been set']);
+});
 
 // Auth APIs
 Route::post('/login', [AuthController::class, 'login']);

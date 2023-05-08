@@ -21,7 +21,7 @@ const DashboardContent = () => {
             <div className='flex m-7 space-x-6'>
                 <div className='w-1/2 bg-white p-4'>
                     <span className='text-amber-400 text-2xl'><FaWallet /></span>
-                    <h2 className="font-bold text-xl text-gray-700">Tech shop</h2>
+                    <h2 className="font-bold text-xl text-gray-700">cybermall</h2>
                     <h3 className="uppercase my-3 font-bold text-sm text-gray-400">products</h3>
                     <div className='flex items-center'>
                         <span className="font-bold text-3xl mr-2">$24,780</span>
@@ -31,7 +31,7 @@ const DashboardContent = () => {
                 </div>
                 <div className='w-1/2 bg-white p-4'>
                     <span className='text-amber-400 text-2xl'><FaWallet /></span>
-                    <h2 className="font-bold text-xl text-gray-700">Tech shop</h2>
+                    <h2 className="font-bold text-xl text-gray-700">cybermall</h2>
                     <h3 className="uppercase my-3 font-bold text-sm text-gray-400">products</h3>
                     <div className='flex items-center'>
                         <span className="font-bold text-3xl mr-2">$24,780</span>
@@ -45,7 +45,7 @@ const DashboardContent = () => {
             <div className='flex m-7 space-x-6'>
                 <div className='w-1/2 bg-white p-4'>
                     <span className='text-amber-400 text-2xl'><FaWallet /></span>
-                    <h2 className="font-bold text-xl text-gray-700">Tech shop</h2>
+                    <h2 className="font-bold text-xl text-gray-700">cybermall</h2>
                     <h3 className="uppercase my-3 font-bold text-sm text-gray-400">products</h3>
                     <div className='flex items-center'>
                         <span className="font-bold text-3xl mr-2">$24,780</span>
@@ -55,7 +55,7 @@ const DashboardContent = () => {
                 </div>
                 <div className='w-1/2 bg-white p-4'>
                     <span className='text-amber-400 text-2xl'><FaWallet /></span>
-                    <h2 className="font-bold text-xl text-gray-700">Tech shop</h2>
+                    <h2 className="font-bold text-xl text-gray-700">cybermall</h2>
                     <h3 className="uppercase my-3 font-bold text-sm text-gray-400">products</h3>
                     <div className='flex items-center'>
                         <span className="font-bold text-3xl mr-2">$24,780</span>

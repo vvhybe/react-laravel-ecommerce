@@ -63,8 +63,8 @@ const Login = () => {
     >
       <div className="w-[320px] sm:w-[400px] rounded shadow-xl border-2 border-solid px-4 sm:px-8 py-20 mx-auto">
         <h2 className="text-3xl uppercase tracking-wider font-bold text-center mb-12 select-none">
-          <span className="text-primary">tech</span>
-          <span className="text-secondary-200">shop</span>
+          <span className="text-primary">cyber</span>
+          <span className="text-secondary-200">mall</span>
         </h2>
         {loading ? <TheSpinner /> : 
         <form onSubmit={formik.handleSubmit}>
